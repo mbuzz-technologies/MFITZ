@@ -30,8 +30,8 @@ export function ShareExportPanel({ state, results }: { state: CalculatorState; r
   }
 
   function exportJson() {
-    downloadJson(`ballast-config-${state.model}-${Date.now()}.json`, {
-      generatedBy: "Ballast — LLM self-hosting capacity planner",
+    downloadJson(`mfitz-config-${state.model}-${Date.now()}.json`, {
+      generatedBy: "MFITZ — LLM self-hosting capacity planner",
       generatedAt: new Date().toISOString(),
       configuration: state,
       results: {

@@ -5,7 +5,7 @@ import { Moon, Sun } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 
-const STORAGE_KEY = "ballast:theme"
+const STORAGE_KEY = "mfitz:theme"
 
 export function ThemeToggle() {
   const [isLight, setIsLight] = React.useState(false)

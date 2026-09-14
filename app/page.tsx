@@ -44,7 +44,7 @@ export default function HomePage() {
             Know your VRAM budget before you buy hardware.
           </h1>
           <p className="mt-4 text-lg text-muted-foreground max-w-xl">
-            Ballast estimates GPU memory, KV-cache footprint, concurrency, and throughput for self-hosted LLM
+            MFITZ estimates GPU memory, KV-cache footprint, concurrency, and throughput for self-hosted LLM
             inference — so you can plan hardware instead of guessing.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">

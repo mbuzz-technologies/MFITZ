@@ -1,8 +1,8 @@
 {
-  "name": "ballast",
+  "name": "mfitz",
   "version": "1.0.0",
   "private": true,
-  "description": "Ballast — capacity planning for self-hosted LLM inference. Estimate VRAM, KV cache, concurrency, and throughput before you buy hardware.",
+  "description": "MFITZ — capacity planning for self-hosted LLM inference. Estimate VRAM, KV cache, concurrency, and throughput before you buy hardware.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

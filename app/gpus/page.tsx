@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from "@/components/ui/table"
 import { Badge } from "@/components/ui/badge"
 
-export const metadata = { title: "GPU database — Ballast" }
+export const metadata = { title: "GPU database — MFITZ" }
 
 export default function GpusPage() {
   return (

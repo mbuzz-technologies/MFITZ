@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
-export const metadata = { title: "Documentation — Ballast" }
+export const metadata = { title: "Documentation — MFITZ" }
 
 function Section({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {
   return (
@@ -59,7 +59,7 @@ export default function DocsPage() {
 
           <Section id="quantization" title="Quantization">
             <p>
-              Quantization trades numeric precision for memory and speed. Ballast supports FP32, FP16, BF16, INT8,
+              Quantization trades numeric precision for memory and speed. MFITZ supports FP32, FP16, BF16, INT8,
               INT4, and INT3:
             </p>
             <ul className="list-disc pl-5 space-y-1">
@@ -145,7 +145,7 @@ export default function DocsPage() {
 
           <Section id="disclaimer" title="Accuracy & disclaimer">
             <p>
-              <strong>Ballast is an estimation and infrastructure-planning tool, not an actual LLM inference
+              <strong>MFITZ is an estimation and infrastructure-planning tool, not an actual LLM inference
               server.</strong> Every throughput and latency number is explicitly a heuristic estimate, derived from
               GPU memory bandwidth, effective model size, quantization, context length, and multi-GPU scaling — it
               is not a benchmark result.

@@ -29,7 +29,7 @@ export function SiteHeader() {
           <span className="flex h-7 w-7 items-center justify-center rounded-md bg-primary/15 text-primary">
             <Gauge className="h-4 w-4" />
           </span>
-          Ballast
+          MFITZ
         </Link>
 
         <nav className="hidden md:flex items-center gap-1 text-sm">

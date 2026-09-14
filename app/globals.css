@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /*
- * Ballast is dark-by-default (a technical planning tool, not a marketing
+ * MFITZ is dark-by-default (a technical planning tool, not a marketing
  * site). ":root" holds the dark palette; ".light" overrides it for users
  * who toggle light mode.
  */

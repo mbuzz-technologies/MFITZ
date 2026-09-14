@@ -7,7 +7,7 @@
 import { CalculatorState, SavedConfiguration } from "@/lib/types/calculator"
 import { savedConfigurationSchema } from "@/lib/validation"
 
-const STORAGE_KEY = "ballast:saved-configurations:v1"
+const STORAGE_KEY = "mfitz:saved-configurations:v1"
 const MAX_SAVED = 50
 
 function readAll(): SavedConfiguration[] {
@@ -55,7 +55,7 @@ export function deleteConfiguration(id: string): boolean {
 export function isStorageAvailable(): boolean {
   if (typeof window === "undefined") return false
   try {
-    const testKey = "ballast:storage-test"
+    const testKey = "mfitz:storage-test"
     window.localStorage.setItem(testKey, "1")
     window.localStorage.removeItem(testKey)
     return true

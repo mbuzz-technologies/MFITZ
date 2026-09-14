@@ -1,5 +1,5 @@
 /**
- * Core type definitions for Ballast.
+ * Core type definitions for MFITZ.
  *
  * Single source of truth for GPU/model data shapes, quantization presets,
  * calculator state, and the results produced by the calculation engine.
